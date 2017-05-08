@@ -26,6 +26,7 @@
   padding-top: 110px;
   padding-bottom: 110px;
   margin-bottom: 50px;
+  margin-top: -20px;
 }
 
 .container-fluid .jumbotron {
@@ -118,7 +119,7 @@
 .navbar-default {
   background-color: #dcd8cc; //背景颜色
 
-  margin-bottom: 0; //底部 margin 不撑开距离
+  // margin-bottom: 0; //底部 margin 不撑开距离
   border-radius: 0; //去掉圆角
 }
 
@@ -250,3 +251,9 @@
   font-size: 12px;
 }
 /* end LOGIN MODAL */
+
+/* inner-page common */
+.panel-standard {
+  float: none;
+  margin: 0 auto;
+}
