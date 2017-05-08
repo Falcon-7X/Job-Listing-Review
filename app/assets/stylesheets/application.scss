@@ -33,9 +33,35 @@
 }
 
 .title {
-  font-family: "Helvetica Neue", "Microsoft Yahei", 微软雅黑;
-  text-align: right;
-  margin: 20px;
+  background-color: rgba(250, 250, 250, 0.39);//背景颜色含透明度
+  max-width: 500px;//最大宽度
+  margin-top: 200px;//和顶部拉开距离
+  margin-bottom: 0;//这样就可以紧接息面的描述文字
+  margin-left: 900px;
+  border-top-right-radius: 3px;//右上角圆边
+  border-top-left-radius: 3px;//左上角圆边
+}
+
+.jumbotron h1, .jumbotron .h1 {
+  text-align: left;//文字左对齐
+  color: #222;  //字体颜色
+
+  padding: 50px 20px 0;//上50px，左右20px，下0
+}
+
+.jumbotron p {
+  margin-left: 900px;
+  margin-bottom: auto;
+  margin-top: 0;
+  font-size: 26px;//字体大小
+  max-width: 500px;//最大宽度
+  background-color: rgba(250, 250, 250, 0.39);//背景颜色含透明度
+  padding: 20px;//上下左右padding为20px
+  text-align:left;//文字左对齐
+  color: #222;//字体颜色
+
+  border-bottom-right-radius: 3px;//右下角圆边
+  border-bottom-left-radius: 3px;//左下角圆边
 }
 
 .slogan {
@@ -49,6 +75,17 @@
   margin: 80px 20px;
   text-align: right;
   color: white;
+}
+
+.btn-danger {
+  color: #fff;//字体颜色
+  background-color: #993228;//背景颜色
+  border-color: #993228;//边框颜色
+}
+
+.btn-danger:hover {
+  background-color: #c0acaa;//鼠标放置在btn上的背景颜色
+  border-color: #c0acaa;//鼠标放置在btn上的边框颜色
 }
 
 /* Section */
